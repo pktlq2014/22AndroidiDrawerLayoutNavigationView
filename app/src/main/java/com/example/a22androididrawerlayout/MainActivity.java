@@ -36,10 +36,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         navigationView = findViewById(R.id.navigation_view);
         drawerLayout = findViewById(R.id.drawer_layout);
         setSupportActionBar(toolbar);
-
+        // kích hoạt hiện nút 3 gạch
         actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
 
+        // dùng để hiện nút 3 gạch nhưng cần actionBar(true) ở trên để kích hoạt
         ActionBarDrawerToggle actionBarDrawerToggle = new ActionBarDrawerToggle(MainActivity.this, drawerLayout, R.string.open, R.string.close);
         actionBarDrawerToggle.syncState();
 
@@ -55,6 +56,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         });
         navigationView.setNavigationItemSelectedListener(this);
         fragmentManager = getSupportFragmentManager();
+        // setting icon đổi hình 3 gạch thành android =))
+        toolbar.setNavigationIcon(R.drawable.baseline_android_black_18dp);
     }
 
     // thiết lập chức năng click

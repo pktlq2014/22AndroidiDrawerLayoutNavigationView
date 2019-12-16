@@ -28,8 +28,8 @@
         android:theme="@style/Theme.AppCompat.Light"
         android:id="@+id/navigation_view"
         app:menu="@menu/menu_demo"
-        app:itemTextColor="#F44336"
-        app:itemIconTint="#03A9F4"
+        app:itemTextColor="#3F51B5"
+        app:itemIconTint="#9C27B0"
         app:headerLayout="@layout/header_drawer_layout"
         >
 

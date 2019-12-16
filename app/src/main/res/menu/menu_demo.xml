@@ -4,25 +4,25 @@
     <item
         android:id="@+id/Camera"
         android:title="Camera"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/baseline_camera_enhance_black_18dp"
         />
 
     <item
         android:id="@+id/Gallery"
         android:title="Gallery"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/baseline_gavel_black_18dp"
         />
 
     <item
         android:id="@+id/slideShow"
         android:title="Slide Show"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/baseline_slideshow_black_18dp"
         />
 
     <item
         android:id="@+id/manager"
         android:title="Manager"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/baseline_android_black_18dp"
         />
 
     <item
@@ -32,13 +32,13 @@
             <item
                 android:id="@+id/share"
                 android:title="Share"
-                android:icon="@mipmap/ic_launcher"
+                android:icon="@drawable/baseline_screen_share_black_18dp"
                 />
 
             <item
                 android:id="@+id/send"
                 android:title="Send"
-                android:icon="@mipmap/ic_launcher"
+                android:icon="@drawable/baseline_send_black_18dp"
                 />
         </menu>
     </item>
