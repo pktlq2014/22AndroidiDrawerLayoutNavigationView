@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/drawer_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:id="@+id/toolBar"
+            android:background="@color/colorPrimary"
+            >
+
+        </androidx.appcompat.widget.Toolbar>
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_gravity="start"
+        android:theme="@style/Theme.AppCompat.Light"
+        android:id="@+id/navigation_view"
+        app:menu="@menu/menu_demo"
+        app:itemTextColor="#F44336"
+        app:itemIconTint="#03A9F4"
+        app:headerLayout="@layout/header_drawer_layout"
+        >
+
+    </com.google.android.material.navigation.NavigationView>
+</androidx.drawerlayout.widget.DrawerLayout>

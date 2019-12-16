@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+        android:id="@+id/Camera"
+        android:title="Camera"
+        android:icon="@mipmap/ic_launcher"
+        />
+
+    <item
+        android:id="@+id/Gallery"
+        android:title="Gallery"
+        android:icon="@mipmap/ic_launcher"
+        />
+
+    <item
+        android:id="@+id/slideShow"
+        android:title="Slide Show"
+        android:icon="@mipmap/ic_launcher"
+        />
+
+    <item
+        android:id="@+id/manager"
+        android:title="Manager"
+        android:icon="@mipmap/ic_launcher"
+        />
+
+    <item
+        android:title="Communication"
+        >
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:title="Share"
+                android:icon="@mipmap/ic_launcher"
+                />
+
+            <item
+                android:id="@+id/send"
+                android:title="Send"
+                android:icon="@mipmap/ic_launcher"
+                />
+        </menu>
+    </item>
+</menu>
