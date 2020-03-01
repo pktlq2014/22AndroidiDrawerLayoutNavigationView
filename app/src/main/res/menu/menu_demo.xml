@@ -2,43 +2,31 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     >
     <item
-        android:id="@+id/Camera"
-        android:title="Camera"
-        android:icon="@drawable/baseline_camera_enhance_black_18dp"
+        android:id="@+id/room_database"
+        android:title="Room Database"
+        android:icon="@drawable/ic_db_black_24px"
         />
 
     <item
-        android:id="@+id/Gallery"
-        android:title="Gallery"
-        android:icon="@drawable/baseline_gavel_black_18dp"
-        />
-
-    <item
-        android:id="@+id/slideShow"
-        android:title="Slide Show"
-        android:icon="@drawable/baseline_slideshow_black_18dp"
-        />
-
-    <item
-        android:id="@+id/manager"
-        android:title="Manager"
-        android:icon="@drawable/baseline_android_black_18dp"
-        />
-
-    <item
-        android:title="Communication"
+        android:title="@string/function"
         >
         <menu>
             <item
-                android:id="@+id/share"
-                android:title="Share"
-                android:icon="@drawable/baseline_screen_share_black_18dp"
+                android:id="@+id/item_insert"
+                android:title="@string/insert"
+                android:icon="@drawable/ic_insert_black_24px"
                 />
 
             <item
-                android:id="@+id/send"
-                android:title="Send"
-                android:icon="@drawable/baseline_send_black_18dp"
+                android:id="@+id/item_update"
+                android:title="@string/update"
+                android:icon="@drawable/ic_update_black_24px"
+                />
+
+            <item
+                android:id="@+id/item_delete"
+                android:title="@string/delete_all_student"
+                android:icon="@drawable/ic_delete_black_24px"
                 />
         </menu>
     </item>
